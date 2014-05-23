@@ -65,8 +65,8 @@ https://github.com/LopesDaFonseca/datasciencecoursera/blob/master/Getting%20and%
 * CodeBook.md with a description of the original data and the transformations made in the process of cleaning and subsetting the dataset
 * features.txt listing the 561 variables available in the original downloaded UCI HAR Datset
 * selected_features.txt listing the variables selected for analysis (mean and std measures)
-* run_analysis.R script with the code to clean and select some variables and calculate agrregate averages
+* run_analysis.R script with the code to clean and select some variables and calculate aggregate averages
 * tidyprojectdata.txt with the clean data output from running the script
-* tidyaverages.txt with the aggregate mean values by activity and subject´s ID
+* tidyaverages.txt with the aggregate mean values by activity and subjectï¿½s ID
 
 
