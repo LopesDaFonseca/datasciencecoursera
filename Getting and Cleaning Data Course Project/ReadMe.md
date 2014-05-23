@@ -27,7 +27,7 @@ Do not change the name of any of the files/folders as this will stop the script 
 - 'activity_labels.txt': Links the class labels with their activity name.
 
 
-The downloaded dataset also has Inertia Signals data which are not included in the tidy dataset because this is meant to only include mean and standard deviation measures of the signals' measurements, which were coded as mean() and std(). Thus, this excludes other variables that contain the word "mean" but are composite measures (derived as weighted average of frequency or in windows), and therefore excluded. See codebook for a complete list of variables selected for the analysis.
+The downloaded dataset also has Inertia Signals data which are not included in the tidy dataset because this is meant to only include mean and standard deviation measures of the signals' measurements, which were coded as mean() and std(). Thus, this excludes other variables that contain the word "mean" but are composite measures (derived as weighted average of frequency or in windows), and are therefore excluded. Check the features.txt file in the unzipped data folder or from this repo (https://github.com/LopesDaFonseca/datasciencecoursera/blob/master/Getting%20and%20Cleaning%20Data%20Course%20Project/features.txt) for a complete list of variables avaliable for analysis or.
 
 
 ###The run_analysis script written in R will produce:###
@@ -54,16 +54,18 @@ The downloaded dataset also has Inertia Signals data which are not included in t
 
 ###List of Output Variables available from the repo (selected_features.txt):
 
-
+https://github.com/LopesDaFonseca/datasciencecoursera/blob/master/Getting%20and%20Cleaning%20Data%20Course%20Project/selected_features.txt
 
 ------------------------------------------------
 ###Part 5 - Creates a dataset with the average of each variable for each activity and each subject
 
 
-
-### In addition to the CodeBook, you can find 2 text files with tab separated values with the output from the run_analysis.R script:###
-
-* tidyprojectdata.txt
-* tidyaverages.txt
+The Getting and Cleaning Data Course Project repo contains:
+* CodeBook.md with a description of the original data and the transformations made in the process of cleaning and subsetting the dataset
+* features.txt listing the 561 variables available in the original downloaded UCI HAR Datset
+* selected_features.txt listing the variables selected for analysis (mean and std measures)
+* run_analysis.R script with the code to clean and select some variables and calculate agrregate averages
+* tidyprojectdata.txt with the clean data output from running the script
+* tidyaverages.txt with the aggregate mean values by activity and subject´s ID
 
 

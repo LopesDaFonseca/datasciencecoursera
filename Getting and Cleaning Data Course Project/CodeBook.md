@@ -132,9 +132,9 @@ Thus, for each record it is provided:
 
 ####Data Dictionary####
 
-Check the features.txt file For a full list of names of the 561 features, which is available from the downloaded UCI HAR Dataset or from this repo:
+Check the features.txt file For a full list of names of the 561 features, which is available from the downloaded UCI HAR Dataset or from this repo: https://github.com/LopesDaFonseca/datasciencecoursera/blob/master/Getting%20and%20Cleaning%20Data%20Course%20Project/features.txt
 
-For details on their meaning refer to the Feature Selection which lists the original array names and the measurements derived from the arrays. 
+For details on their meaning refer to the Feature Selection section which lists the original array names and the measurements derived from the arrays. 
 
 
 -----------------------------------------------------------------
@@ -148,7 +148,7 @@ The script is divided into 5 parts:
 
 
 * 2 Extracts only the measurements on the mean and standard deviation for each signal measurement:
-selection includes only the mean and standard deviation variables from the 17 different signals in the time and frequency domain. Note that there are variables in the original dataset that include the word "mean" and were excluded from the final tidy dataset - these are related to angle() and meanfreq() and are compound measures related to the angle or to the average weight of the frequency.For a full list of the selected variables check the ReadMe document.
+selection includes only the mean and standard deviation variables from the 17 different signals in the time and frequency domain. Note that there are variables in the original dataset that include the word "mean" and were excluded from the final tidy dataset - these are related to angle() and meanfreq() and are compound measures related to the angle or to the average weight of the frequency.For a full list of the selected variables check https://github.com/LopesDaFonseca/datasciencecoursera/blob/master/Getting%20and%20Cleaning%20Data%20Course%20Project/selected_features.txt
 
 
 * 3 Tidies up the descriptive activity names necessary to label the activities in the dataset using the activity_labels.txt 
