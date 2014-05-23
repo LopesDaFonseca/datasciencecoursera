@@ -27,7 +27,7 @@ Do not change the name of any of the files/folders as this will stop the script 
 - 'activity_labels.txt': Links the class labels with their activity name.
 
 
-The downloaded dataset also has Inertia Signals data which are not included in the tidy dataset because this is meant to only include mean and standard deviation measures of the signals' measurements, which were coded as mean() and std(). Thus, this excludes other variables that contain the word "mean" but are composite measures (derived as weighted average of frequency or in windows), and are therefore excluded. Check the features.txt file in the unzipped data folder or from this repo (https://github.com/LopesDaFonseca/datasciencecoursera/blob/master/Getting%20and%20Cleaning%20Data%20Course%20Project/features.txt) for a complete list of variables avaliable for analysis or.
+The downloaded dataset also has Inertia Signals data which are not included in the tidy dataset because this is meant to only include mean and standard deviation measures of the signals' measurements, which were coded as mean() and std(). Thus, this excludes other variables that contain the word "mean" but are composite measures (derived as weighted average of frequency or in a signal window sample), and are therefore excluded. Check the features.txt file in the unzipped data folder or from this repo (https://github.com/LopesDaFonseca/datasciencecoursera/blob/master/Getting%20and%20Cleaning%20Data%20Course%20Project/features.txt) for a complete list of variables avaliable for analysis or.
 
 
 ###The run_analysis script written in R will produce:###
@@ -60,7 +60,8 @@ https://github.com/LopesDaFonseca/datasciencecoursera/blob/master/Getting%20and%
 ###Part 5 - Creates a dataset with the average of each variable for each activity and each subject
 
 
-The Getting and Cleaning Data Course Project repo contains:
+---------------------------------------------------------
+###The Getting and Cleaning Data Course Project repo contains:
 * CodeBook.md with a description of the original data and the transformations made in the process of cleaning and subsetting the dataset
 * features.txt listing the 561 variables available in the original downloaded UCI HAR Datset
 * selected_features.txt listing the variables selected for analysis (mean and std measures)

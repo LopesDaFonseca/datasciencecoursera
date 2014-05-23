@@ -148,10 +148,11 @@ The script is divided into 5 parts:
 
 
 * 2 Extracts only the measurements on the mean and standard deviation for each signal measurement:
-selection includes only the mean and standard deviation variables from the 17 different signals in the time and frequency domain. Note that there are variables in the original dataset that include the word "mean" and were excluded from the final tidy dataset - these are related to angle() and meanfreq() and are compound measures related to the angle or to the average weight of the frequency.For a full list of the selected variables check https://github.com/LopesDaFonseca/datasciencecoursera/blob/master/Getting%20and%20Cleaning%20Data%20Course%20Project/selected_features.txt
+selection includes only the mean and standard deviation variables from the 17 different signals in the time and frequency domain. Note that there are variables in the original dataset that include the word "mean" and were excluded from the final tidy dataset - these are related to angle() and meanfreq() and are compound measures related to the angle or to the average weight of the frequency. For a full list of the selected variables check https://github.com/LopesDaFonseca/datasciencecoursera/blob/master/Getting%20and%20Cleaning%20Data%20Course%20Project/selected_features.txt
 
 
-* 3 Tidies up the descriptive activity names necessary to label the activities in the dataset using the activity_labels.txt 
+* 3 Tidies up the descriptive activity names necessary to label the activities in the dataset using the activity_labels.txt.
+  
 Note that activity 6 seems to have been incorrectly labelled as "LAYING" and thus was replaced with "LYING".
 
 
