@@ -51,12 +51,10 @@ The downloaded dataset also has Inertia Signals data which are not included in t
 ###Part 4 - Labels the dataset with descriptive activity labels (activity names)
 
  * Outputs the final tidy data set, which results in 10299 observations and 68 columns (66 variables + 2 factors)
-
-
-------------------------------------------------------------
-###List of Output Variables available from the repo (selected_features.txt) or from this link:
+ * List of Output Variables available from the repo (selected_features.txt) or from this link:
  
 https://github.com/LopesDaFonseca/datasciencecoursera/blob/master/Getting%20and%20Cleaning%20Data%20Course%20Project/selected_features.txt
+
 
 ------------------------------------------------
 ###Part 5 - Creates a dataset with the average of each variable for each activity and each subject
